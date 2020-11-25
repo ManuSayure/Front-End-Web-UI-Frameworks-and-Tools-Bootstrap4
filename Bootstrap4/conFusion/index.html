@@ -8,13 +8,38 @@
      <meta http-equiv="x-ua-compatible" content="ie=edge">
  
      <!-- Bootstrap CSS -->
+    
      <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+     <link href="css/styles.css" rel="stylesheet">
+     
     <title>Ristorante Con Fusion</title>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./aboutus.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
 
-    <header class="jumbotron">
+    <header class="jumbotron  row-headerS">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-sm-6">
@@ -27,8 +52,8 @@
         </div>
     </header>
 
-    <main class="container">
-        <section id='titulo' class="row">
+    <main class="container ">
+        <section id='titulo' class="row row-content  row-content align-items-center">
             <div class="col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -39,7 +64,7 @@
         </section>
 
 
-        <section id="promotions" class="row"> 
+        <section id="promotions" class="row row-content  row-content align-items-center"> 
             <div class="col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
@@ -49,7 +74,7 @@
             </div>
         </section>
 
-        <section id="chef" class="row">
+        <section id="chef" class="row row-content  row-content align-items-center">
             <div class="col-12 col-sm-4 col-md-3 order-sm-last">
                 <h3>Meet our Culinary Specialists</h3>
             </div>
@@ -61,12 +86,12 @@
         </section>
     </main>
 
-    <footer class="">
+    <footer class="footer">
         <div class="container">
-            <div class="row">             
-                <div class="col-4 offset-1 col-sm-2">
+            <div class="row  row-content align-items-center">             
+                <div class="col-4 offset-1 col-sm-2 text-center">
                     <h5>Links</h5>
-                    <ul>
+                    <ul class="list-unstyled">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Menu</a></li>
@@ -84,7 +109,7 @@
 		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
-                <div class="col-12 col-sm-4">
+                <div class="col-12 col-sm-4 align-self-center">
                     <div>
                         <a href="http://google.com/+">Google+</a>
                         <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
@@ -95,8 +120,8 @@
                     </div>
                 </div>
            </div>
-           <div lass="col-12 col-sm-4 order-sm-last col-md-3">             
-                <div >
+           <div class="row justify-content-center">             
+                <div class="col-auto">
                     <p>© Copyright 2018 Ristorante Con Fusion</p>
                 </div>
            </div>
