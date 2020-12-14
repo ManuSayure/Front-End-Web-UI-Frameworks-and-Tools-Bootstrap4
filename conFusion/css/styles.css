@@ -72,3 +72,9 @@ h5{
     margin-top: 40px;
 
 }
+#carouselButton{
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+};
